@@ -1,8 +1,9 @@
-var  masa = prompt("ingresa tu masa corporal");
-var altura =  prompt("ingresa su altura");
-function IMC(masa,altura) {
-var resultado = alert("Tu resultado del IMC es ")
-var num = 5.56789;
-var n = (num.toFixed(2));
+var peso = prompt("Ingresa tu peso en kg");
+var altura = prompt("Ingrese su altura en metros");
+function imc(peso,altura){
+  var alt= altura*altura;
+  var res = (peso/alt).toFixed(2);
+  alert("Su IMC es " + res);
 }
-IMC(masa,altura);
+imc(peso,altura);
+
