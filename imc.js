@@ -6,3 +6,4 @@ function imc(peso,altura){
   alert("Su IMC es " + res);
 }
 imc(peso,altura);
+
